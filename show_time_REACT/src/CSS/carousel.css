@@ -1,0 +1,22 @@
+#carousel-container {
+    width: 85vw;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #inner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 100%;
+    transition: left 0.5s;
+  }
+  
+  .item {
+    float: left;
+    width: 500px;
+    height: 100%;
+  }
+  
